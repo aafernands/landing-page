@@ -6,64 +6,50 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="Description" content="Enter your description here" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css">
     <link rel="stylesheet" href="style.css">
     <title>One World Travel</title>
 </head>
 
-<body>
+<body id='photo'>
 
     <div class="container">
-        <header>
-            <h2>
-                <a href="#"><i class="fas fa-plane"></i></i> OneWorldTravel.com</a>
-            </h2>
-
-            <nav>
-                <ul>
-                    <li>
-                        <a href="" title="Hotels">HOTELS</a>
-                    </li>
-                    <li>
-                        <a href="" title="Flights">FLIGHTS</a>
-                    </li>
-                    <li>
-                        <a href="" title="Tous">TOURS</a>
-                    </li>
-                    <li>
-                        <a href="" title="Register / Log In">LOG IN</a>
-                    </li>
-                </ul>
-            </nav>
-        </header>
 
 
+        <div class="row">
+            <div class="col-sm">
+                <a href="#"><i class="fas fa-plane"></i> OneWorldTravel.com</a>
+            </div>
+            <div class="col-sm">
+                <div class="topnav">
+                    <a class="active" href="#home">Home</a>
+                    <a href="#news">HOTELS</a>
+                    <a href="#contact">FLIGHTS</a>
+                    <a href="#about">TOURS</a>
+                    <a href="#logIn">LOG IN</a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm">
+                    <div class="cover">
+                        <h1>The world is yours to explore.</h1>
+                        <form action="/action_page.php">
+                            <input type="text" placeholder="SEARCH" name="search">
+                            <button type="button"><i class="fa fa-search btn btn-primary"></i></button>
+                        </form>
 
-    </div>
+                    </div>
+                </div>
+            </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <script src="script.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.min.js"></script>
+            <script src="script.js"></script>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+                integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+                crossorigin="anonymous"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
 </body>
 
 </html>

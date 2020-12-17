@@ -1,10 +1,59 @@
-@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Questrial&display=swap");
 
 a {
-	color: rgb(0, 0, 0);
+	color: rgb(255, 255, 255);
 	opacity: 0.8;
 	text-decoration: none;
-    cursor: pointer;
-    font-family: questrial;
+	cursor: pointer;
+	font-family: questrial;
+	font-size: 20px;
+}
 
+#photo {
+	background-image: url("assets/photo.jpeg");
+	width: 100%;
+	height: 1000px;
+	background-size: cover;
+	color: white;
+	padding: 4;
+}
+
+.cover {
+	text-align: center;
+	padding: 40px;
+}
+
+nav {
+	color: #fff;
+	background-color: rgba(255, 0, 0, 0);
+	width: 100%;
+	height: 56px;
+	line-height: 56px;
+}
+
+input {
+	background-color: rgba(214, 214, 214, 0.336) !important;
+}
+
+.topnav {
+	overflow: hidden;
+}
+
+.topnav a {
+	float: left;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+}
+
+.topnav a:hover {
+	background-color: #ddd;
+	color: black;
+}
+
+.topnav a.active {
+	background-color: #141414d7;
+	color: white;
 }
